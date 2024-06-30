@@ -1,0 +1,6 @@
+Sitemap: https://altamino.top/sitemap.xml
+
+User-agent: *
+Allow: /
+Disallow: /static/
+Disallow: /static/*

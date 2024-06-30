@@ -1,0 +1,8 @@
+/*
+    X-Frame-Options: SAMEORIGIN
+    X-Content-Type-Options: nosniff
+    Referrer-Policy: no-referrer
+    X-XSS-Protection: 1; mode=block
+
+/static/*
+    Cache-Control: max-age=3600

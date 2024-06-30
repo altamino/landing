@@ -1,0 +1,88 @@
+:root {
+    --bg-color: #000;
+    --bg-secondary-color: #262626;
+    --font-color: #f5f5f5;
+    --color-grey: #bbb;
+    --color-darkGrey: #888;
+    --color-darkDarkGrey: #555;
+    --color-error: #ea4f4f;
+    --grid-maxWidth: 108rem;
+}
+
+* {
+    line-height: 1;
+}
+
+.focused-in-center {
+    display: grid; 
+    place-items: center; 
+}
+.text-centered {
+    text-align: center;
+}
+.flex-columned {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row-columned {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer {
+    opacity: 0.75;
+    color: var(--color-darkDarkGrey);
+}
+.footer:last-child {
+    margin: 0 0 2.5rem;
+}
+
+.header {
+    height: 40vh;
+}
+
+.background-1 {
+    border: none;
+    border-radius: 1.5em;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/static/images/altamino-bg.gif);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    @supports (background: url(/static/images/altamino-bg.webp)) {
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/static/images/altamino-bg.webp);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: none;
+        border-radius: 1.5em;
+    }    
+}
+
+#altamino-banner {
+    text-align: center;
+    font-size: 200%;
+}
+#altamino-banner > h1 {
+    margin: 0.5em 0;
+}
+
+@media screen and (max-width: 599px) {
+    .mobile-centered {
+        text-align: center;
+    }
+    .footer:last-child {
+        margin: 2.5rem 0 2.5rem;
+    }
+    .header {
+        height: 45vh;
+    }
+}
+@media screen and (min-width: 600px) {
+    .mobile-centered {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+}
