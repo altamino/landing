@@ -45,6 +45,10 @@
     height: 40vh;
 }
 
+.cool-margin {
+    margin: 15rem 0 5rem;
+}
+
 .background-1 {
     border: none;
     border-radius: 1.5em;
