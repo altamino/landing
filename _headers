@@ -5,4 +5,4 @@
     X-XSS-Protection: 1; mode=block
 
 /static/*
-    Cache-Control: max-age=3600
+    Cache-Control: max-age=86400
