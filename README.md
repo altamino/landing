@@ -1,6 +1,6 @@
 # Landing
 
-![Version](https://img.shields.io/badge/version-b45) ![GitHub Issues](https://img.shields.io/github/issues/altamino/landing) ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/altamino/landing)
+![Version](https://img.shields.io/badge/version-b45-default) ![GitHub Issues](https://img.shields.io/github/issues/altamino/landing) ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/altamino/landing)
 
 This is landing page that is hosted on Cloudflare Pages.
 
