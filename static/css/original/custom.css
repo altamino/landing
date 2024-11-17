@@ -57,6 +57,10 @@
     margin: 15rem 0 5rem;
 }
 
+.mc-hr {
+    display: none;
+}
+
 .background-1 {
     border: none;
     border-radius: 1.5em;
@@ -135,6 +139,7 @@ details>p>a:visited {
     }
 
     .mc-hr {
+        display: block;
         border: 0;
         height: 1px;
         background: linear-gradient(to right, transparent, var(--color-darkDarkDarkGrey), transparent);
