@@ -14,12 +14,6 @@
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- FONT
-        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <link rel="preconnect" href="https://fonts.cdnfonts.com" crossorigin>
-        <link href="https://fonts.cdnfonts.com/css/handil-pro" rel="stylesheet">
-        <link href="https://fonts.cdnfonts.com/css/helvetica-255" rel="stylesheet">
-
         <!-- CSS
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <link rel="stylesheet" href="/static/css/chota.css">
@@ -44,18 +38,19 @@
 
         <!-- Primary Page Layout
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <div class="container">
-            <nav class="tabs is-full" style="padding: 1rem 0 0.5rem;">
-                <a href="/">Home</a>
-                <a href="/github">GitHub</a>
-                <a href="/reddit">Latest news</a>
-                <a class="active" href="faq.html">FAQ</a>
-            </nav>
+        <<nav class="tabs is-full sticky-menu" style="padding: 1rem 0 0.5rem;">
+            <a class="active" href="#">Home</a>
+            <a href="/github">GitHub</a>
+            <a href="/reddit">Latest news</a>
+            <a href="faq.html">FAQ</a>
+        </nav>
+        <div class="container" id="need-focusing">
             <div class="row">
                 <div class="col focused-in-center background-1 header">
                     <div id="altamino-banner">
                         <h1>AltAmino</h1>
                         <p>Alternative open-source server for Aminoapps</p>
+                        <a class="button" href="/github">Check out</a>
                     </div>
                 </div>
             </div>
