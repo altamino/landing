@@ -117,11 +117,16 @@ details>p>a:visited {
     line-height: 1.25;
 }
 
+.altamino-row {
+    margin-top: 2rem;
+}
+
 .sticky-menu {
     position: sticky;
     z-index: 5928;
     overflow: hidden;
     top: 0;
+    padding: 1rem 0 0.5rem;
     background: rgb(0, 0, 0);
     background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 100%);
     background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 100%);
@@ -129,7 +134,15 @@ details>p>a:visited {
     backdrop-filter: blur(10px);
 }
 
+.sticky-menu-items {
+    max-width: var(--grid-maxWidth);
+}
+
 @media screen and (max-width: 599px) {
+    .altamino-row {
+        margin-top: 0;
+    }
+
     .mobile-centered {
         text-align: center;
         padding-top: 1em;

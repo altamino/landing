@@ -1,8 +1,11 @@
 /*
-    X-Frame-Options: SAMEORIGIN
+    X-Frame-Options: DENY
     X-Content-Type-Options: nosniff
-    Referrer-Policy: no-referrer
+    Referrer-Policy: strict-origin-when-cross-origin
     X-XSS-Protection: 1; mode=block
+    X-Powered-By: GitLab Pages
+    Cross-Origin-Resource-Policy: same-site
+    Cross-Origin-Opener-Policy: same-origin
 
 /static/*
     Cache-Control: max-age=86400

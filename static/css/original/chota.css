@@ -5,6 +5,7 @@
     --bg-color: #fff;
     --bg-secondary-color: #f3f3f6;
     --color-primary: rgb(159, 79, 232);
+    --color-primary-darker: rgb(126, 42, 204);
     --color-lightGrey: #d2d6dd;
     --color-grey: #747681;
     --color-darkGrey: #3f4144;
@@ -88,7 +89,7 @@ a {
 }
 
 a:visited {
-    color: var(--color-darkDarkGrey);
+    color: var(--color-primary-darker);
     text-decoration: none;
 }
 
@@ -191,8 +192,8 @@ iframe {
 
 .container {
     max-width: var(--grid-maxWidth);
-    margin: 0 auto;
     width: 96%;
+    margin: 0 auto;
     padding: 0 calc(var(--grid-gutter) / 2);
 }
 
@@ -543,7 +544,7 @@ select {
 [type="submit"],
 button {
     padding: 1rem 2.5rem;
-    color: var(--font-color);
+    color: var(--font-color)!important;
     background: var(--bg-color);
     border-radius: 1rem;
     border: 1px solid transparent;
