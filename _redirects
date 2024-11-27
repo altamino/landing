@@ -2,3 +2,12 @@
 /app/apk/latest https://github.com/altamino/apps/releases/download/22092024/AltAmino.apk
 /github https://github.com/altamino
 /reddit https://reddit.com/r/altamino
+
+/src/api https://github.com/altamino/api
+/src/api/stable https://github.com/altamino/api/tree/stable
+/src/api/dev https://github.com/altamino/api/tree/dev
+/src/api/canary https://github.com/altamino/api/tree/canary
+
+/src/ws https://github.com/altamino/ws
+/src/landing https://github.com/altamino/landing
+/src/apps https://github.com/altamino/apps
