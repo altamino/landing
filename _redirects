@@ -6,9 +6,6 @@
 /telegram https://t.me/altamino
 
 /src/api https://github.com/altamino/api
-/src/api/canary https://github.com/altamino/api/tree/canary
-
-/src/api https://github.com/altamino/api
 /src/ws https://github.com/altamino/websocket
 /src/websocket https://github.com/altamino/websocket
 /src/landing https://github.com/altamino/landing
