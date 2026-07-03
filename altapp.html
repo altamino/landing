@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Needs
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>AltTeam - Creator & Volunteer Tools for AltAmino</title>
+    <meta name="description"
+        content="AltTeam is the official utility app for community editors, volunteers, and developers within the AltAmino ecosystem. Manage communities, submit reports, and help us build.">
+    <meta name="author" content="AltAmino Team">
+    <link class="canonical" href="https://altamino.top/team" />
+
+    <!-- Mobile Specific Metas
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="/static/css/main.css">
+
+    <!-- JS
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script defer src="/static/js/iconify.min.js"></script>
+
+    <!-- Favicon
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#fce5fd">
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/images/favicons/favicon-16x16.png">
+    <link rel="icon" href="/static/images/favicons/favicon.ico">
+
+</head>
+
+<body>
+    <!-- Primary Page Layout
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <nav class="tabs is-full sticky-menu" id="need-focusing">
+        <a href="/">Home</a>
+        <a class="active" href="#">AltTeam</a>
+        <a href="/github">GitHub</a>
+        <a href="/tg">Telegram</a>
+    </nav>
+    <div class="stars-background" id="need-focusing">
+        <div id='stars'></div>
+        <div id='stars2'></div>
+        <div id='stars3'></div>
+    </div>
+    <div class="container" id="need-focusing">
+        <div class="row">
+            <div class="col focused-in-center background-1 header altamino-row">
+                <div id="altamino-banner">
+                    <h1>AltTeam</h1>
+                    <p>Ecosystem management app for editors, volunteers, and developers</p>
+                    <a class="button" href="#downloads">Get the app</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Features Section -->
+        <div>
+            <div style="font-size:175%;">
+                <h2 class="text-centered cool-margin">What is it for?</h2>
+            </div>
+            <div class="row">
+                <div class="col flex-columned">
+                    <span class="iconify" data-icon="mdi:gavel" data-height="96"></span>
+                    <h3 class="text-centered">Reports & Feedback</h3>
+                    <p class="text-centered">Easily submit community complaints, feature suggestions, or user reports directly to administration panels.</p>
+                </div>
+                <div class="col flex-columned">
+                    <span class="iconify" data-icon="mdi:fountain-pen-tip" data-height="96"></span>
+                    <h3 class="text-centered">Community Editing</h3>
+                    <p class="text-centered">Advanced internal tools tailored for community design modifications, item management, and asset adjustments.</p>
+                </div>
+                <div class="col flex-columned">
+                    <span class="iconify" data-icon="mdi:xml" data-height="96"></span>
+                    <h3 class="text-centered">For Volunteers</h3>
+                    <p class="text-centered">A centralized hub for active testers, moderators, and open-source contributors syncing with the AltAmino backend.</p>
+                </div>
+            </div>
+        </div>
+
+        <p style="margin-top:6rem"></p>
+        <hr class="mc-hr" id="downloads">
+        <p style="margin-top:2rem"></p>
+
+        <!-- Android Downloads Section -->
+        <div>
+            <div style="font-size:175%;">
+                <h2 class="text-centered cool-margin">Android Downloads</h2>
+            </div>
+            <div class="row">
+                <div class="col-4 flex-columned">
+                    <span class="iconify" data-icon="mdi:android" data-height="96"></span>
+                    <h3 class="text-centered android-text">Android</h3>
+                    <p><span class="tag is-small gh-version">Loading release...</span></p>
+                </div>
+                <div class="col-8 mobile-centered">
+                    <p>Select the APK build built specifically for your device architecture:</p>
+                    
+                    <div style="margin-top: 1.5rem;">
+                        <p>
+                            <a id="apk-universal" href="#" class="button primary">Download Universal APK</a>
+                            <br><span class="tag is-small">Works on all devices (Larger size)</span>
+                        </p>
+                        <p>
+                            <a id="apk-arm64" href="#" class="button outline primary">Download ARM64 (v8a)</a>
+                            <br><span class="tag is-small">For most modern smartphones & tablets</span>
+                        </p>
+                        <p>
+                            <a id="apk-v7a" href="#" class="button outline primary">Download ARMv7 (armeabi-v7a)</a>
+                            <br><span class="tag is-small">For older 32-bit devices</span>
+                        </p>
+                        <p>
+                            <a id="apk-x86" href="#" class="button outline primary">Download x86 / x86_64</a>
+                            <br><span class="tag is-small">For emulators and specific Intel/AMD setups</span>
+                        </p>
+                    </div>
+
+                    <p style="margin-top: 2rem;">
+                        <span class="tag is-small">Android 7.0+</span>
+                        <span class="tag is-small gh-date">2026</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <p style="margin-top:6rem"></p>
+        <hr class="mc-hr">
+        <p style="margin-top:2rem"></p>
+
+        <!-- iOS Downloads Section -->
+        <div>
+            <div style="font-size:175%;">
+                <h2 class="text-centered cool-margin">iOS / iPadOS Downloads</h2>
+            </div>
+            <div class="row">
+                <div class="col-4 flex-columned">
+                    <span class="iconify" data-icon="mdi:apple" data-height="96"></span>
+                    <h3 class="text-centered">iOS / iPadOS</h3>
+                    <p><span class="tag is-small gh-version">Loading release...</span></p>
+                </div>
+                <div class="col-8 mobile-centered">
+                    <p><b>Using TrollStore:</b></p>
+                    <p>1. Download the latest AltTeam IPA file.</p>
+                    <p>2. Install via TrollStore. You can also try to <a id="ts-direct" href="#">install directly via TrollStore</a> link protocol if supported.</p>
+                    <p>
+                        <span class="tag is-small">iOS 14.0 - 17.0</span>
+                        <span class="tag is-small">TrollStore</span>
+                        <span class="tag is-small gh-date">2026</span>
+                    </p>
+                    
+                    <hr class="mc-hr">
+                    
+                    <p><b>Sideloading & Custom Certificates:</b></p>
+                    <p>Sign the IPA bundle using your own tools like <a href="https://usescarlet.com">Scarlet</a>, <a href="https://sideloadly.io">Sideloadly</a>, or <a href="https://altstore.io">AltStore</a>.</p>
+                    <p>
+                        <span class="tag is-small">iOS 14.0+</span>
+                        <span class="tag is-small">PC or Signing Cert required</span>
+                        <span class="tag is-small gh-date">2026</span>
+                    </p>
+                    
+                    <p style="margin-top:2rem;"></p>
+                    <div class="row">
+                      <div class="col-6">
+                        <a id="ipa-download" href="#" class="button outline primary">Download IPA</a>
+                      </div>
+                      <div class="col-6">
+                        <a id="ts-button" href="#" class="button outline secondary">TrollStore Direct</a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p style="margin-top:12rem"></p>
+        <div class="row footer">
+            <div class="col focused-in-center">
+                <div class="row-columned">
+                    2024-present, AltAmino Team and contributors
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- GitHub Release Tracker Script
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script>
+        const GH_OWNER = 'alx0rr'; 
+        const GH_REPO = 'AltTeam-App'; 
+
+        async function fetchLatestRelease() {
+            try {
+                const response = await fetch(`https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/releases/latest`);
+                if (!response.ok) throw new Error('Network error');
+                const data = await response.json();
+
+                const releaseDate = new Date(data.published_at);
+                const formattedDate = `${String(releaseDate.getDate()).padStart(2, '0')}.${String(releaseDate.getMonth() + 1).padStart(2, '0')}.${releaseDate.getFullYear()}`;
+
+
+                document.querySelectorAll('.gh-version').forEach(el => el.textContent = data.name || data.tag_name);
+                document.querySelectorAll('.gh-date').forEach(el => el.textContent = formattedDate);
+
+                data.assets.forEach(asset => {
+                    const name = asset.name.toLowerCase();
+                    const url = asset.browser_download_url;
+
+                    if (name.includes('universal') && name.includes('.apk')) {
+                        document.getElementById('apk-universal').href = url;
+                    } else if (name.includes('arm64') && name.includes('.apk')) {
+                        document.getElementById('apk-arm64').href = url;
+                    } else if ((name.includes('v7a') || name.includes('armeabi')) && name.includes('.apk')) {
+                        document.getElementById('apk-v7a').href = url;
+                    } else if ((name.includes('x86') || name.includes('desktop')) && name.includes('.apk')) {
+                        document.getElementById('apk-x86').href = url;
+                    } else if (name.includes('.ipa')) {
+                        document.getElementById('ipa-download').href = url;
+                        
+                        const tsLink = `apple-magnifier://install?url=${encodeURIComponent(url)}`;
+                        document.getElementById('ts-direct').href = tsLink;
+                        document.getElementById('ts-button').href = tsLink;
+                    }
+                });
+
+            } catch (error) {
+                console.error('Error loading GitHub releases:', error);
+                document.querySelectorAll('.gh-version').forEach(el => el.textContent = 'Error loading');
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', fetchLatestRelease);
+    </script>
+</body>
+
+</html>
