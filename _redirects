@@ -2,10 +2,15 @@
 /app/apk/latest https://github.com/altamino/apps/releases/download/20062026/AltAmino.apk
 /github https://github.com/altamino
 
+/repo/altstore /repo/altstore.json 200
+/repo/scarlet /repo/scarlet.json 200
+
 /tg https://t.me/altamino
 /telegram https://t.me/altamino
-/feedback.html /support
-/feedback /support
+
+/help https://support.altamino.top 
+/support https://support.altamino.top 
+/feedback https://support.altamino.top 
 
 /src/api https://github.com/altamino/api
 /src/ws https://github.com/altamino/websocket

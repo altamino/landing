@@ -1,0 +1,23 @@
+{
+  "name": "AltAmino / Repository",
+  "iconURL": "https://altamino.top/static/images/altamino.png",
+  "website": "https://altamino.top",
+  
+  "apps": [
+    {
+      "beta": false,
+      "name": "AltAmino",
+      "bundleIdentifier": "com.narvii.master",
+      "developerName": "Narvii",
+      "subtitle": "Mod to interract with AltAmino, open-source project that revives Amino. Bug fixes included!",
+      "version": "20.06.2026",
+      "versionDate": "2026-06-20T11:36:00+02:00",
+      "versionDescription": "Various bug fixes, ServersNdcMsgSigNotExist included.",
+      "downloadURL": "https://altamino.top/app/ipa/latest",
+      "localizedDescription": "Mod to interact with AltAmino servers.",
+      "iconURL": "https://altamino.top/static/images/altamino.png",
+      "tintColor": "000000",
+      "size": 80000000
+     }
+  ]
+}

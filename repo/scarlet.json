@@ -1,0 +1,17 @@
+{
+  "META": {
+    "repoName": "AltAmino / Repository ",
+    "repoIcon": "https://altamino.top/static/images/altamino.png"
+  },
+  "Social": [
+    {
+      "name": "AltAmino",
+      "version": "20.06.2026",
+      "down": "https://altamino.top/app/ipa/latest",
+      "category": "Social Network",
+      "description": "Mod to interract with AltAmino, open-source project that revives Amino. Bug fixes included!",
+      "bundleID": "com.narvii.master",
+      "appstore": "com.narvii.master"
+    }
+  ]
+}
