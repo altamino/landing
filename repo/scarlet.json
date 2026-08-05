@@ -8,10 +8,19 @@
       "name": "AltAmino",
       "version": "20.06.2026",
       "down": "https://altamino.top/app/ipa/latest",
-      "category": "Social Network",
+      "category": "Social",
       "description": "Mod to interract with AltAmino, open-source project that revives Amino. Bug fixes included!",
       "bundleID": "com.narvii.master",
       "appstore": "com.narvii.master"
+    },
+    {
+      "name": "AltTeam",
+      "version": "1.0.3",
+      "down": "https://github.com/alx0rr/AltTeam-App/releases/download/v1.0.3/app-release.ipa",
+      "category": "Social",
+      "description": "ACM for AltAmino, open-source project that revives Amino.",
+      "bundleID": "top.altamino.altteam",
+      "appstore": "top.altamino.altteam"
     }
   ]
 }

@@ -8,8 +8,8 @@
       "beta": false,
       "name": "AltAmino",
       "bundleIdentifier": "com.narvii.master",
-      "developerName": "Narvii",
-      "localizedDescription": "Mod to interract with AltAmino, open-source project that revives Amino. Bug fixes included!\n\nCheck out sources:\nhttps://github.com/altamino",
+      "developerName": "shaderw0lf",
+      "localizedDescription": "Mod to interract with AltAmino, open-source project that revives Amino, social network made by Narvii and owned by Medialab. Bug fixes included!\n\nCheck out sources:\nhttps://github.com/altamino",
       "version": "20.06.2026",
       "versionDate": "2026-06-20T11:36:00+02:00",
       "versionDescription": "Various bug fixes, ServersNdcMsgSigNotExist included.",
@@ -18,6 +18,21 @@
       "iconURL": "https://altamino.top/static/images/altamino.png",
       "tintColor": "000000",
       "size": 80000000
-     }
+    }, 
+    {
+      "beta": false,
+      "name": "AltTeam",
+      "bundleIdentifier": "top.altamino.altteam",
+      "developerName": "alx0rr",
+      "localizedDescription": "Homebrew ACM for AltAmino, open-source project that revives Amino, social network made by Narvii and owned by Medialab.\n\nCheck out sources:\nhttps://github.com/alx0rr/AltTeam-App",
+      "version": "1.0.3",
+      "versionDate": "2026-06-20T11:36:00+02:00",
+      "versionDescription": "Various bug fixes, first iOS build.",
+      "downloadURL": "https://github.com/alx0rr/AltTeam-App/releases/download/v1.0.3/app-release.ipa",
+      "subtitle": "AltAmino Community Manager.",
+      "iconURL": "https://altamino.top/static/images/altamino.png",
+      "tintColor": "000000",
+      "size": 32000000
+    }
   ]
 }
