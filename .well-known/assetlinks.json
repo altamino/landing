@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.narvii.amino.mastes",
+      "sha256_cert_fingerprints": [
+        "D6:A8:8E:D1:1E:FD:6E:8F:5D:DC:EB:F2:4E:C2:26:44:20:C7:D0:5F:57:92:FF:04:96:6E:75:68:D2:AD:B0:64",
+        "97:E6:32:3E:0C:73:B9:25:D6:F9:3F:0F:BB:CC:D9:61:AC:8C:F7:F0:78:C8:DB:C1:0B:42:8C:CA:45:31:48:B2"
+      ]
+    }
+  }
+]
