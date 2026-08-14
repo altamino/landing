@@ -1,9 +1,9 @@
-/app/ipa/latest https://github.com/altamino/apps/releases/download/20062026/AltAmino.ipa
-/app/apk/latest https://github.com/altamino/apps/releases/download/20062026/AltAmino.apk
+/app/ipa/latest https://service.altamino.top/api/v1/app/ipa/latest 302
+/app/apk/latest https://service.altamino.top/api/v1/app/apk/latest 302
 /github https://github.com/altamino
 
-/repo/altstore /repo/altstore.json 200
-/repo/scarlet /repo/scarlet.json 200
+/repo/altstore https://service.altamino.top/api/v1/repo/altstore 302
+/repo/scarlet https://service.altamino.top/api/v1/repo/scarlet 302
 
 /tg https://t.me/altamino
 /telegram https://t.me/altamino
