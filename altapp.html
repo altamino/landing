@@ -209,7 +209,7 @@
                     const name = asset.name.toLowerCase();
                     const url = asset.browser_download_url;
 
-                    if (name.includes('universal') && name.includes('.apk')) {
+                    if (name.includes('app-release') && name.includes('.apk')) {
                         document.getElementById('apk-universal').href = url;
                     } else if (name.includes('arm64') && name.includes('.apk')) {
                         document.getElementById('apk-arm64').href = url;
