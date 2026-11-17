@@ -1,0 +1,27 @@
+/* AltAmino legal pages: subtle extensions to the original site CSS. */
+.legal-header.header { height: clamp(240px, 38vh, 360px); }
+.legal-content { max-width: 800px; margin: 4rem auto 7rem; padding: 0 1.5rem; }
+.legal-content p, .legal-content li { line-height: 1.75; }
+.legal-content p { margin-bottom: 1.5rem; }
+.legal-intro { color: #d2cbd9; font-size: 1.7rem; }
+.legal-meta { font-size: 1.3rem; color: #999; margin: 0 0 2rem; }
+.legal-nav { padding: 1.4rem 0; margin: 2.8rem 0 3rem; border-top: 1px solid #29242f; border-bottom: 1px solid #29242f; display: flex; gap: .6rem 2.1rem; flex-wrap: wrap; }
+.legal-nav a { color: #b99bdc; font-size: 1.4rem; text-decoration: none; }
+.legal-nav a[aria-current="page"] { color: #fff; font-weight: 700; }
+.legal-nav a:hover { color: #fff; text-decoration: underline; }
+.legal-section { margin: 0 0 3.7rem; scroll-margin-top: 2rem; }
+.legal-section h2 { font-size: 2.2rem; margin: 0 0 1.4rem; }
+.legal-section h3 { font-size: 1.7rem; margin: 2rem 0 1rem; color: #e9e1ef; }
+.legal-section ul { padding-left: 2.4rem; margin-bottom: 1.4rem; }
+.legal-section li { margin: 0 0 .7rem; }
+.legal-section a { text-underline-offset: .25rem; overflow-wrap: anywhere; }
+.legal-section strong { color: #f5f0f8; }
+.legal-footer { padding-top: 1.5rem; border-top: 1px solid #29242f; font-size: 1.3rem; color: #888; line-height: 1.75; }
+.legal-footer a { margin-right: 1.5rem; }
+@media (max-width: 599px) {
+  .legal-header.header { height: 245px; }
+  .legal-header #altamino-banner { font-size: 155%; }
+  .legal-content { margin: 3rem auto 5rem; padding: 0 2rem; }
+  .legal-section h2 { font-size: 2rem; }
+}
+@media (prefers-reduced-motion: reduce) { .legal-content * { animation: none; } }
